@@ -26,13 +26,6 @@ if (is_admin_logged_in()) {
         body {
             background: #ce8847ff;
         }
-        .role-card {
-            cursor: pointer;
-            transition: transform 0.2s;
-        }
-        .role-card:hover {
-            transform: scale(1.05);
-        }
     </style>
 </head>
 <body>
